@@ -16,7 +16,7 @@ A self-hosted inference lab built around seven NVIDIA GPUs: five Tesla P100s, on
 | Automation GPU | RTX 3060, 12 GB |
 | Specialist GPU pool | 5 × Tesla P100, 16 GB each |
 | Storage | 1 TB NVMe, PCIe adapter |
-| Operating system | Ubuntu Server; exact current release pending maintenance verification |
+| Operating system | Ubuntu Server |
 
 The current owner-reported GPU inventory totals **116 GB of distributed VRAM**. This is not a unified memory pool. Older records describe four P100s; the fifth card and its service assignment need an inventory check when the machine returns. No claim is made that a single model can use all memory efficiently.
 
